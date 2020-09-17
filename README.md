@@ -6,4 +6,5 @@ Sass is an extension of CSS, adding nested rules, variables, mixins, selector in
 
 # Preview
 You can see the live site clicking <a href="https://marianadacunha.github.io/sass-exercise/">here</a>.</br>
+
 ![Screenshot](https://i.ibb.co/tLD1pJm/Captura-de-tela-2020-09-11-18-01-37.png)
