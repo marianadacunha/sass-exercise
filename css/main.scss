@@ -1,10 +1,8 @@
-$colors: (
-    primary: #005DFF,
+$colors: (primary: #005DFF,
     primary-light: lighten(#005DFF, 40%),
     primary-dark: darken(#005DFF, 40%),
     accent: #FFF6BB,
-    white: #FFFFFF 
-);
+    white: #FFFFFF);
 
 $padding: 15px;
 $borders: 15px;
@@ -14,7 +12,7 @@ $borders: 15px;
 }
 
 /* The point where the layout should change */
-$desktop: 840px; 
+$desktop: 840px;
 
 /* Making a mixin for the media */
 @mixin desktop {
@@ -23,7 +21,8 @@ $desktop: 840px;
     }
 }
 
-body, html {
+body,
+html {
     height: 100%;
 }
 
@@ -38,7 +37,7 @@ body {
         height: 100%;
         position: absolute;
         z-index: -1;
-        
+
         /* Including mixin with the new properties */
         @include desktop {
             clip-path: polygon(0 0, 75% 0, 55% 100%, 0 100%);

@@ -1,6 +1,7 @@
 /* The point where the layout should change */
 /* Making a mixin for the media */
-body, html {
+body,
+html {
   height: 100%;
 }
 
@@ -144,3 +145,4 @@ main section#primary a {
     padding: 15px 60px;
   }
 }
+/*# sourceMappingURL=main.css.map */
